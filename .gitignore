@@ -1,0 +1,47 @@
+# IMPORTANT: Asset Folder Considerations
+# 
+# Option 1: Hide assets folder (Current setup)
+# - Assets folder will not be uploaded to GitHub
+# - README.md images will NOT display on GitHub
+# - Repository will be clean but without visual demonstrations
+#
+# Option 2: Include assets folder (Recommended)
+# - Comment out the "assets/" line below
+# - All images will display properly on GitHub
+# - Full visual showcase of your ROS2 skills
+#
+# To switch to Option 2, comment out this line:
+assets/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ROS2 Build artifacts
+build/
+install/
+log/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# System Files
+*.pyc
+__pycache__/
+.python-version
